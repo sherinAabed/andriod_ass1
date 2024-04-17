@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#2196F3">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="#2196F3"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/Title"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="@string/S.P"
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+
+            style="@style/txtStyle"
+
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Rule:"
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Rule"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text="@string/rule"
+            android:textSize="18sp" />
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Description:"
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtDesc"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text="@string/decs1"
+             />
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Exam:"
+            android:textColor="#FFF69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text=" He plays football every Saturday"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:background="#101212" />
+
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Questions:"
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Exam"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text="Q1: Choose the sentence that applies to the rule"
+            />
+
+        <RadioGroup
+            android:id="@+id/grpRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Tans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="She reads a book every night"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/Fans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="He eated breakfast this morning"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/btnStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#9641C5"
+            android:text="check answer" />
+        <TextView
+            android:text="Fill in the blank with the correct answer "
+            style="@style/txtStyle"/>
+
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:text="She ____ a book every night."
+
+            style="@style/txtStyle"/>
+
+        <CheckBox
+            android:id="@+id/checkboxOptionA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reads" />
+
+        <CheckBox
+            android:id="@+id/checkboxOptionB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eating" />
+
+        <CheckBox
+            android:id="@+id/checkboxOptionC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="played" />
+
+        <Button
+            android:id="@+id/btnSubmit2"
+            style="@style/btnStyle"
+            android:layout_gravity="center"
+            android:text="check answer" />
+        <CheckBox
+            android:id="@+id/saveInfoCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save answer"
+            android:layout_gravity="center"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

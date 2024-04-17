@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#2196F3">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="#2196F3"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/Title2"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="2.Simple Past "
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+
+            style="@style/txtStyle"
+
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Rule:"
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Rule2"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text="The simple past tense is used to talk about events that happened in the past and are finished."
+            android:textSize="18sp" />
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Description:"
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtDesc2"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text="We add (ed) to the verb to indicate the past, but there are some irregular verbs that have different forms."
+            />
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Exam:"
+            android:textColor="#FFF69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text=" She walked to school yesterday."
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:background="#101212" />
+
+
+        <TextView
+
+            style="@style/txtStyle"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:text="Questions:"
+            android:textColor="#F69AF1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Exam2"
+            style="@style/txtStyle"
+            android:layout_gravity="center"
+            android:text="Q1: Choose the sentence that applies to the rule"
+            />
+
+        <RadioGroup
+            android:id="@+id/grpRadio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Tans2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="She traveled to Europe last summer"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/Fans2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="He is going to the store yesterday"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmit2"
+            style="@style/btnStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#9641C5"
+            android:text="check answer" />
+        <TextView
+            android:text="Fill in the blank with the correct answer "
+            style="@style/txtStyle"/>
+
+        <TextView
+            android:id="@+id/txtQuestion2"
+            android:text="The children ________ (play) in the park yesterday"
+
+            style="@style/txtStyle"/>
+
+        <CheckBox
+            android:id="@+id/checkboxOptionA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="played" />
+
+        <CheckBox
+            android:id="@+id/checkboxOptionB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="are playing" />
+
+        <CheckBox
+            android:id="@+id/checkboxOptionC2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="will play" />
+
+        <Button
+            android:id="@+id/btnSubmit22"
+            style="@style/btnStyle"
+            android:layout_gravity="center"
+            android:text="check answer" />
+        <CheckBox
+            android:id="@+id/saveInfoCheckbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save answer"
+            android:layout_gravity="center"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>

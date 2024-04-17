@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtPassword" type="id" />
+    <item name="edtName" type="id" />
+    <item name="chk" type="id" />
+    <item name="btnLogin" type="id" />
+</resources>

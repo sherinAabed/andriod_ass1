@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to English Grammar Course!"
+        android:textColor="#E689A8"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:id="@+id/txtT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtT1"
+        android:text="List of lessons:"
+        android:textColor="#E689A8"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/listViewLessons"
+        android:layout_width="293dp"
+        android:layout_height="307dp"
+        android:layout_below="@id/txtT2"
+        android:layout_marginTop="53dp"></ListView>
+
+    <TextView
+        android:id="@+id/txtT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/listViewLessons"
+        android:text=" chose the  lessons from the  List :"
+        android:textColor="#E689A8"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
+
